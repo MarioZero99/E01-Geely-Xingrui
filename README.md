@@ -4,6 +4,15 @@
 
 源码、问题上报和安装包都在 **[DiPlay-Geely-E01](https://github.com/MarioZero99/DiPlay-Geely-E01)**。
 
+<!--
+发版同步：笔记仓库 出包与安装.md「搜索入口跟着新版本改」。
+新 tag 发出后只改下面三处，规则与 DiPlay 的 scripts/publish-apk.sh 相同：
+- 版本名 = versionName（现为 0.4.5-geely），tag = v + versionName
+- APK 文件名 = DiPlay-Legacy-Geely-V + 去掉点的数字（0.4.5 → V045）
+  下载链接和安装示例里的文件名一起改。
+同版本只换 Release 资产时链接不变，不用改。简介和 Topics 不带版本号。
+-->
+
 当前版本 **[0.4.5-geely](https://github.com/MarioZero99/DiPlay-Geely-E01/releases/tag/v0.4.5-geely)**：
 
 [下载 DiPlay-Legacy-Geely-V045.apk](https://github.com/MarioZero99/DiPlay-Geely-E01/releases/download/v0.4.5-geely/DiPlay-Legacy-Geely-V045.apk)
