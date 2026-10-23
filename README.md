@@ -2,20 +2,9 @@
 
 2021 款**吉利星瑞**车机的 CarPlay 接收端。车机是亿咖通 **E01**（ECARX E01 / FS11），系统 **GKUI 19**，联发科 **MT6735**，**Android 5.1（API 22）**。
 
-源码、问题上报和安装包都在 **[DiPlay-Geely-E01](https://github.com/MarioZero99/DiPlay-Geely-E01)**。
+源码、问题上报和最新安装包都在 **[DiPlay-Geely-E01](https://github.com/MarioZero99/DiPlay-Geely-E01)**。
 
-<!--
-发版同步：笔记仓库 出包与安装.md「搜索入口跟着新版本改」。
-新 tag 发出后只改下面三处，规则与 DiPlay 的 scripts/publish-apk.sh 相同：
-- 版本名 = versionName（现为 0.4.5-geely），tag = v + versionName
-- APK 文件名 = DiPlay-Legacy-Geely-V + 去掉点的数字（0.4.5 → V045）
-  下载链接和安装示例里的文件名一起改。
-同版本只换 Release 资产时链接不变，不用改。简介和 Topics 不带版本号。
--->
-
-当前版本 **[0.4.5-geely](https://github.com/MarioZero99/DiPlay-Geely-E01/releases/tag/v0.4.5-geely)**：
-
-[下载 DiPlay-Legacy-Geely-V045.apk](https://github.com/MarioZero99/DiPlay-Geely-E01/releases/download/v0.4.5-geely/DiPlay-Legacy-Geely-V045.apk)
+👉 **[前往 Releases 列表下载最新安装包与查看更新日志](https://github.com/MarioZero99/DiPlay-Geely-E01/releases)**
 
 没有 Apple 认证，和吉利、亿咖通也没有关系。CarPlay 的名字和图标属于 Apple。
 
@@ -47,7 +36,7 @@
 
 ```sh
 adb uninstall com.shihab.diplay
-adb install -r DiPlay-Legacy-Geely-V045.apk
+adb install -r DiPlay-Legacy-Geely-*.apk
 ```
 
 没有 ADB 时，把 APK 拷到 U 盘，用车机文件管理器安装。
@@ -56,6 +45,6 @@ adb install -r DiPlay-Legacy-Geely-V045.apk
 
 CarPlay receiver for the **2021 Geely Xingrui** head unit: **ECARX E01**, GKUI 19, MediaTek MT6735, Android 5.1 (API 22).
 
-Source, issues, and releases: **[DiPlay-Geely-E01](https://github.com/MarioZero99/DiPlay-Geely-E01)**.
+Source, issues, and releases: **[DiPlay-Geely-E01](https://github.com/MarioZero99/DiPlay-Geely-E01)** · **[Releases](https://github.com/MarioZero99/DiPlay-Geely-E01/releases)**.
 
 Not Apple-certified, and not affiliated with Geely or ECARX. CarPlay is a trademark of Apple Inc.
